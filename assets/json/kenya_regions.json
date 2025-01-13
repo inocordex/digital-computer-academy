@@ -1,0 +1,23 @@
+{
+    "counties": {
+      "Nairobi": {
+        "subcounties": {
+          "Westlands": ["Parklands", "Highridge", "Kangemi"],
+          "Lang'ata": ["Karen", "Otiende", "Ngei"]
+        }
+      },
+      "Kiambu": {
+        "subcounties": {
+          "Thika": ["Makongeni", "Kamenu", "Ngoingwa"],
+          "Kiambaa": ["Ruaka", "Banana", "Muchatha"]
+        }
+      },
+      "Mombasa": {
+        "subcounties": {
+          "Nyali": ["Bombolulu", "Kongowea", "Shanzu"],
+          "Changamwe": ["Migadini", "Port Reitz", "Chaani"]
+        }
+      }
+    }
+  }
+  

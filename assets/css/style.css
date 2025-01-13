@@ -1,0 +1,41 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/images/hero-bg.jpg') center/cover no-repeat;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+/* Features Section */
+.container h2 {
+    font-weight: bold;
+}
+
+.bi {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+/* Footer */
+footer {
+    background-color: #222;
+    color: #ccc;
+}
