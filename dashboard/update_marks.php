@@ -2,9 +2,9 @@
 session_start();
 include '../includes/config.php'; // Include config file
 
-// Check if the user is logged in as admin
-if (!isset($_SESSION['admin_id'])) {
-    header("Location: ../admin_login.php");
+// Check if the user is logged in as teacher
+if (!isset($_SESSION['teacher_id'])) {
+    header("Location: ../staff_login.php");
     exit();
 }
 
@@ -158,7 +158,7 @@ $result = $stmt->get_result();
 <body>
     <header>
         <div class="mt-3 w-100">
-            <a href="admin_dashboard.php" class="btn btn-success w-100">Back to Dashboard</a>
+            <a href="teacher_dashboard.php" class="btn btn-success w-100">Back to Dashboard</a>
         </div>
     </header>
     <div class="container mt-5">

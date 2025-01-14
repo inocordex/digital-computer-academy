@@ -2,9 +2,9 @@
 session_start();
 include '../includes/config.php'; // Include database configuration
 
-// Check if the user is logged in as admin
-if (!isset($_SESSION['admin_id'])) {
-    header("Location: ../admin_login.php");
+// Check if the user is logged in as teacher
+if (!isset($_SESSION['teacher_id'])) {
+    header("Location: ../staff_login.php");
     exit();
 }
 

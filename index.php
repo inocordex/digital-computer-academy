@@ -21,7 +21,7 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="register.php">Student Registration</a></li><!-- works only for a set period set by admin. if past, notify user that intake is closed -->
                     <li class="nav-item"><a class="nav-link" href="login.php"> Student Login</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"> Staff Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="staff_login.php"> Staff Login</a></li>
                     <li class="nav-item"><a class="nav-link" href="admin_login.php">Admin</a></li>
                 </ul>
             </div>
